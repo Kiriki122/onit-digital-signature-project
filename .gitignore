@@ -1,0 +1,31 @@
+# Базовые настройки Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+ENV/
+
+# Конфиденциальные данные (Пароли и настройки)
+.env
+# Мы ИСКЛЮЧАЕМ игнорирование примера, чтобы он попал в репозиторий
+!.env.example
+
+# Криптографические ключи (Никогда не должны попадать в Git!)
+*.pem
+sender_private.pem
+receiver_private.pem
+sender_public.pem
+receiver_public.pem
+
+# Временные файлы данных и результаты работы программы
+secret_doc.txt
+decrypted_*.txt
+payload.enc
+key.enc
+
+# Настройки IDE (VS Code, PyCharm и т.д.)
+.vscode/
+.idea/
+*.swp
